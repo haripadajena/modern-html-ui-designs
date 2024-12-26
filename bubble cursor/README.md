@@ -1,0 +1,2 @@
+# Bubble Cursor
+An interactive bubble cursor effect that follows the mouse movement, creating a dynamic and engaging user experience. Perfect for adding a touch of modern animation to websites or applications.
