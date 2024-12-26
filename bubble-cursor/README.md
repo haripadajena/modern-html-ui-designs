@@ -4,4 +4,4 @@ An interactive bubble cursor effect that follows the mouse movement, creating a 
 
 ## Screenshot
 
-<img src="https://github.com/haripadajena/modern-html-ui-designs/blob/main/bubble%20cursor/Bubble%20Cursor.PNG" alt="Description" style="max-width: 100%; height: auto;"/>
+<img src="https://github.com/haripadajena/modern-html-ui-designs/blob/main/bubble-cursor/Bubble_Cursor.PNG" alt="Description" style="max-width: 100%; height: auto;"/>
