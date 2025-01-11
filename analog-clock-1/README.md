@@ -31,7 +31,7 @@
 * More about Neomorphism: [CSS-tricks](https://css-tricks.com/neumorphism-and-css/)
 
 ## Website Demo:
-<img src="https://github.com/haripadajena/modern-html-ui-designs/blob/main/analog-clock-1/output.PNG" alt="Description" style="max-width: 100%; height: auto;"/>
+<img src="https://github.com/haripadajena/modern-html-ui-designs/blob/main/analog-clock-1/output.png" alt="Description" style="max-width: 100%; height: auto;"/>
 
 
 # *Author*
