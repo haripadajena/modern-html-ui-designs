@@ -1,7 +1,7 @@
-# Circle Loader
+# Particle Cursor 2
 
-A circle loader is a visual component often used in web and app development to indicate that a process, such as loading or data fetching, is ongoing. It is a circular animation that provides feedback to users, letting them know that the system is working in the background.
+An interactive particle cursor effect that follows the mouse movement, creating a dynamic and engaging user experience. Perfect for adding a touch of modern animation to websites or applications.
 
 ## Screenshot
 
-<img src="https://github.com/haripadajena/modern-html-ui-designs/blob/main/circle-loader/Circle_Loader.PNG" alt="Circle_Loader" style="max-width: 100%; height: auto;"/>
+<img src="https://github.com/haripadajena/modern-html-ui-designs/blob/main/particle-cursor-2/Particle_Cursor.PNG" alt="Description" style="max-width: 100%; height: auto;"/>
