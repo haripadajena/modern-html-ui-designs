@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@haripadajena</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+
+    <style>
+        body {
+ background-color: #000000;
+ overflow: hidden;
+ text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+svg {
+ width: 100%;
+ height: 100%;
+ visibility: hidden;
+ 
+}
+
+.ell, #ai {
+	fill: none;
+}
+
+
+/* -- YouTube Link Styles -- */
+
+/* -- YouTube Link Styles -- */
+#made-by{
+  color:white;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;  
+  display: inline-flex;
+  position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+}
+#tel-link {
+  top: 60px;
+}
+
+#tel-link > i {
+  color: rgb(94, 106, 210);
+}
+
+#source-link {
+  top: 60px;
+}
+
+#source-link > i {
+  color: rgb(94, 106, 210);
+}
+
+#yt-link {  
+  top: 10px;
+}
+
+#yt-link > i {
+  color: rgb(219, 31, 106); 
+
+}
+
+#source-link {
+  top: 60px;
+}
+
+#source-link > i {
+  color: rgb(94, 106, 210);
+}
+
+#yt-link {  
+  top: 10px;
+}
+
+#yt-link > i {
+  color: rgb(219, 31, 106); 
+
+}
+.meta-link {
+  align-items: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;  
+  display: inline-flex;
+  gap: 5px;
+  left: 10px;
+  padding: 10px 20px;
+  position: fixed;
+  text-decoration: none;
+  transition: background-color 600ms, border-color 600ms;
+  z-index: 10000;
+}
+
+.meta-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.meta-link > i, .meta-link > span {
+  height: 20px;
+  line-height: 20px;
+}
+
+.meta-link > span {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  transition: color 600ms;
+}
+/* ==============
+  Loader
+===================*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: #f5f5f5; //for white background */
+    z-index: 9999999;
+  
+  }
+  
+  #status {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px; 
+  
+  }
+  
+  .spinner {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 50%;
+    margin-left: -39px;
+    margin-top: -39px; 
+    background-color:white;
+    border-radius: 50%;
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: 78px 78px;
+  }
+  
+  .spinner:before {
+    content: '';
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 50%;
+    margin-top: -47px;
+    left: 50%;
+    margin-left: -47px;
+    border-width: 2px 1px;
+    border-style: solid;
+    border-color: #4c3cce rgba(59, 195, 233, 0.3);
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    animation: spin 3.45s infinite;
+    -o-animation: spin 3.45s infinite;
+    -ms-animation: spin 3.45s infinite;
+    -webkit-animation: spin 3.45s infinite;
+    -moz-animation: spin 3.45s infinite; }
+  
+  /*.spinner:after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    margin-top: -6px;
+    left: 50%;
+    margin-left: -6px;
+    background-color: #3bc3e9;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    animation: pulse 6.9s infinite, borderPulse 6.9s infinite;
+    -o-animation: pulse 6.9s infinite, borderPulse 6.9s infinite;
+    -ms-animation: pulse 6.9s infinite, borderPulse 6.9s infinite;
+    -webkit-animation: pulse 6.9s infinite, borderPulse 6.9s infinite;
+    -moz-animation: pulse 6.9s infinite, borderPulse 6.9s infinite; 
+  
+  }*/
+  
+  @keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); }
+    50% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg); }
+    100% {
+      -webkit-transform: rotate(1080deg);
+              transform: rotate(1080deg); } }
+  
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg); }
+    50% {
+      -webkit-transform: rotate(360deg); }
+    100% {
+      -webkit-transform: rotate(1080deg); } }
+      
+    </style>
+</head>
+<body>
+    <!-- Loader -->
+    <div id="preloader">
+      <div id="status">
+          <div class="spinner"></div>
+      </div>
+  </div>
+      <!--Social Liks codings below-->
+  <a id="tel-link" class="meta-link" href="https://t.me/+xmSUrvshxbw5MGNl" target="_blank">
+    <i class="fas fa-link"></i>
+    <span class="roboto-mono">Join in Telegram</span>
+</a> <br>
+
+
+<a id="yt-link" class="meta-link" href="https://www.youtube.com/@haripada_jena?sub_confirmation=1" target="_blank">
+  <i class="fab fa-youtube"></i>
+  <span>Subscribe my channel..❤</span>
+</a>
+
+<p id="made-by">Designed by Haripada Jena ❤</p>
+
+   
+</body>
+</html>
