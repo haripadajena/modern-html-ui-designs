@@ -40,7 +40,7 @@ A collection of modern, responsive, and stylish HTML user interface (UI) designs
 
 ## Project 6: jquery-toast-plugin-2
 **Description:** Jquery Toast Alert with Customisation.  
-**Demo:** [Live Demo](https://haripadajena.github.io/modern-html-ui-designs/jquery-toast-plugin-2)  
+**Demo:** [Live Demo](https://haripadajena.github.io/modern-html-ui-designs/jquery-toast-plugin-2/demos/)  
 **Repository:** [GitHub Repository](https://github.com/haripadajena/modern-html-ui-designs/tree/main/jquery-toast-plugin-2)  
 
 ---
