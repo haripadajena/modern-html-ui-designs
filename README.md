@@ -99,3 +99,11 @@ A collection of modern, responsive, and stylish HTML user interface (UI) designs
 **Repository:** [GitHub Repository](https://github.com/haripadajena/modern-html-ui-designs/tree/main/star-cursor)
 
 ---
+
+## Project 13: round-cube-cursor
+
+**Description:** Round Cube Cursor animation with effective on mouse movement.  
+**Demo:** [Live Demo](https://haripadajena.github.io/modern-html-ui-designs/round-cube-cursor)  
+**Repository:** [GitHub Repository](https://github.com/haripadajena/modern-html-ui-designs/tree/main/round-cube-cursor)
+
+---

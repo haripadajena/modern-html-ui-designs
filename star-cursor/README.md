@@ -10,3 +10,15 @@ An interactive star cursor effect that follows the mouse movement, creating a dy
 **Repository:** [GitHub Repository](https://github.com/haripadajena/modern-html-ui-designs/tree/main/star-cursor)
 
 ---
+
+## For Download the this repository
+
+Note: For Downloading the star-cursor repository please go with the below link and paste the directory path.
+
+[https://download-directory.github.io/](https://download-directory.github.io/)
+
+```bash
+Repository Path
+https://github.com/haripadajena/modern-html-ui-designs/tree/main/star-cursor
+
+```
