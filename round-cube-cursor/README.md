@@ -4,7 +4,7 @@ An interactive Round Cube cursor effect that follows the mouse movement, creatin
 
 ## Screenshot
 
-<img src="https://github.com/haripadajena/modern-html-ui-designs/blob/main/star-cursor/Round_Cube.PNG" alt="Description" style="max-width: 100%; height: auto;"/>
+<img src="https://github.com/haripadajena/modern-html-ui-designs/blob/main/round-cube-cursor/Round_Cube.PNG" alt="Description" style="max-width: 100%; height: auto;"/>
  
 **Demo:** [Live Demo](https://haripadajena.github.io/modern-html-ui-designs/round-cube-cursor)  
 **Repository:** [GitHub Repository](https://github.com/haripadajena/modern-html-ui-designs/tree/main/round-cube-cursor)
