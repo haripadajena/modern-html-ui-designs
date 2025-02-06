@@ -107,3 +107,11 @@ A collection of modern, responsive, and stylish HTML user interface (UI) designs
 **Repository:** [GitHub Repository](https://github.com/haripadajena/modern-html-ui-designs/tree/main/round-cube-cursor)
 
 ---
+
+## Project 14: heart-bar-loader
+
+**Description:** Heart Bar Loader with effective Animation.  
+**Demo:** [Live Demo](https://haripadajena.github.io/modern-html-ui-designs/heart-bar-loader)  
+**Repository:** [GitHub Repository](https://github.com/haripadajena/modern-html-ui-designs/tree/main/heart-bar-loader)
+
+---
